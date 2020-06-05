@@ -1,0 +1,47 @@
+
+**************Begin new trust node proc****************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"msg_send","receiver_uuid":"
+    whitelist_search","route":"base_whitelist","flow":"DELIVER","state":"MATCH","fla
+    g":"LOCAL","ljump":1,"rjump":1,"record_type":"WHITELIST_SM3","record_subtype":"B
+    ASE_WHITELIST","record_num":1,"record_size":0,"expand_num":0,"expand_size":0,"ms
+    g_uuid":"fa1ea62214b60d93eedef49b68f1d2d0580186c981cd0e01be2eca3235bc5995"},
+"RECORD":[
+    {"whitelist_name":"centos-7.6-base-test","os_type":"centos-7.6","os_version":"7.
+        6-1810","implement_type":"ovirt_test_kernel-3.10.0-957","whitelist_uuid":""}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"whitelist_search","receiver
+    _uuid":"whitelist_load","route":"base_whitelist","flow":"DELIVER","state":"MATCH
+    ","flag":"LOCAL","ljump":2,"rjump":1,"record_type":"WHITELIST_SM3","record_subty
+    pe":"BASE_WHITELIST","record_num":1,"record_size":0,"expand_num":0,"expand_size"
+    :0,"msg_uuid":"fa1ea62214b60d93eedef49b68f1d2d0580186c981cd0e01be2eca3235bc5995"
+    },
+"RECORD":[
+    {"whitelist_name":"centos-7.6-base-test","os_type":"centos-7.6","os_version":"7.
+        6-1810","implement_type":"ovirt_test_kernel-3.10.0-957","whitelist_uuid":"7c847a
+        6dd1b1e6b8a3230834a4bf9db252edf2d8c6c3ee9b1dd274f9bcbb95ec"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"whitelist_load","receiver_u
+    uid":"term_io","route":"base_whitelist","flow":"DELIVER","state":"MATCH","flag":
+    "LOCAL|FOLLOW","ljump":3,"rjump":1,"record_type":"WHITELIST_SM3","record_subtype
+    ":"BASE_WHITELIST","record_num":1,"record_size":0,"expand_num":0,"expand_size":0
+    ,"msg_uuid":"fa1ea62214b60d93eedef49b68f1d2d0580186c981cd0e01be2eca3235bc5995"},
+"RECORD":[
+    {"whitelist_name":"centos-7.6-base-test","os_type":"centos-7.6","os_version":"7.
+        6-1810","implement_type":"ovirt_test_kernel-3.10.0-957","whitelist_uuid":"7c847a
+        6dd1b1e6b8a3230834a4bf9db252edf2d8c6c3ee9b1dd274f9bcbb95ec"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************

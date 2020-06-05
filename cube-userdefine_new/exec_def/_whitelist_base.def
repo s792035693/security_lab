@@ -1,0 +1,11 @@
+{
+	"CUBE_PATH":"/home/sq_centos/cube-1.3"
+}
+{
+	"CUBE_APP_PATH":"/home/sq_centos/cube-userdefine_new",
+	"INSTANCE":"instance/server",
+	"CUBE_DEFINE_PATH":"/home/sq_centos/cube-userdefine_new/define",
+	"CUBE_APP_PLUGIN":"/home/sq_centos/cube-userdefine_new/plugin",
+	"PARAMS":"request.txt",
+	"CUBE_OUTPUT":"vtcm.log"
+}

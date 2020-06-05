@@ -1,0 +1,56 @@
+
+**************Begin new trust node proc****************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"","receiver_uuid":"","route
+    ":"","flow":"FINISH","state":"MATCH","flag":"NULL","ljump":1,"rjump":1,"record_t
+    ype":"MESSAGE","record_subtype":"CONN_SYNI","record_num":1,"record_size":89,"exp
+    and_num":0,"expand_size":0,"msg_uuid":"98d353c354091041002415560c3dd5306e26844c1
+    e2293f6d37cecb9eb584930"},
+"RECORD":[
+    {"uuid":"1d1b19f2b5fbc822d2a17188a2c7abaefe18b973fc53e4549a5b6f8246bcc9a4","serv
+        er_name":"server","service":"trust_server","server_addr":"","flags":0,"nonce":"A
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"msg_send","receiver_uuid":"
+    ","route":"","flow":"FINISH","state":"MATCH","flag":"NULL","ljump":1,"rjump":1,"
+    record_type":"GENERAL_RETURN","record_subtype":"STRING","record_num":1,"record_s
+    ize":0,"expand_num":0,"expand_size":0,"msg_uuid":"10600063e7b2cb7b642888168956a6
+    737abbfbad5d02c2b86ee3156d0ac0936a"},
+"RECORD":[
+    {"name":"zhaowen","return_value":"123"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"msg_send","receiver_uuid":"
+    :user_client","route":"record","flow":"QUERY","state":"MATCH","flag":"NULL","lju
+    mp":1,"rjump":1,"record_type":"RECORD_DEFINE","record_subtype":"WRITE","record_n
+    um":1,"record_size":0,"expand_num":0,"expand_size":0,"msg_uuid":"c9b9acc6d19aa56
+    d2ceb087807f925529ee7413f588dc91bb49779b0087dd021"},
+"RECORD":[
+    {"record_no":"002","segment":"Ex_time","text":"Teacher is writing"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
+{
+ "HEAD":{"tag":"MESG","version":65537,"sender_uuid":"msg_send","receiver_uuid":"
+    :user_client","route":"record","flow":"QUERY","state":"MATCH","flag":"NULL","lju
+    mp":1,"rjump":1,"record_type":"RECORD_DEFINE","record_subtype":"READ","record_nu
+    m":1,"record_size":0,"expand_num":0,"expand_size":0,"msg_uuid":"d42ec275e216281b
+    83f922cbd5f5dd33e80b3893d10ac9fc096b0ac207681a7d"},
+"RECORD":[
+    {"record_no":"001"}
+    ],
+"EXPAND" :[]
+}
+
+************************************************************
