@@ -1,0 +1,10 @@
+{
+	"type":"WHITELIST_SM3",
+	"subtype":"BASE_WHITELIST"
+}
+{
+	"whitelist_name":"centos-7.6-base-test",
+	"os_type":"centos-7.6",
+	"os_version":"7.6-1810",
+	"implement_type":"ovirt_test_kernel-3.10.0-957",
+}

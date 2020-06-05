@@ -1,0 +1,1 @@
+cmd_/home/sq_centos/cube-whitelist/os_sec_module/TestLsm.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/sq_centos/cube-whitelist/os_sec_module/TestLsm.ko /home/sq_centos/cube-whitelist/os_sec_module/TestLsm.o /home/sq_centos/cube-whitelist/os_sec_module/TestLsm.mod.o
